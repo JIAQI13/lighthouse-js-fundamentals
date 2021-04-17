@@ -1,10 +1,11 @@
 function lastIndexOf(list,target){
-  let 
+  let result = -1;
   for(let i in list){
-    if(i === target){
-
+    if(list[i] === target){
+      result = i;
     }
   }
+  return result++;
 }
 
 
